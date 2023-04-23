@@ -28,7 +28,7 @@ export default function FollowersList() {
             data-testid={`follower-item-${index}`}
             key={index}
           >
-            <img src={follower.picture.large} />
+            <img src={follower.picture.large}  alt="alt"/>
             <div className="followers-details">
               <div className="follower-item-name">
                 <h4>{follower.name.first}</h4> <h4>{follower.name.last}</h4>
